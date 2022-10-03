@@ -16,7 +16,7 @@ class TodoTitleTextField extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const Text(
-            'Ім\'я',
+            'Заголовок',
             style: TextStyle(
               fontSize: 16,
               fontWeight: FontWeight.w600,
@@ -27,7 +27,7 @@ class TodoTitleTextField extends StatelessWidget {
             readOnly: false,
             controller: titleController,
             maxLineCount: 1,
-            hintText: 'Введіть ім\'я',
+            hintText: 'Введіть заголовок',
             onChanged: null,
           ),
         ],
