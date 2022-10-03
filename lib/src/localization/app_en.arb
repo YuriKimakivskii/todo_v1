@@ -1,0 +1,6 @@
+{
+  "appTitle": "todo_v1_rel",
+  "@appTitle": {
+    "description": "The title of the application"
+  }
+}
